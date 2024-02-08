@@ -8,11 +8,17 @@ import { FormBuilder, Validators } from '@angular/forms';
 })
 export class RegisterComponent {
   regisForm = this.fb.group({
+    name: ['', Validators.required],
     email: ['', [Validators.required, Validators.email]],
-    password: ['', [Validators.required]]
+    password: ['', [Validators.required]],
+    repPassword: ['', Validators.required]
   })
 
   constructor(private fb: FormBuilder){}
+
+  get name(){
+    return this.regisForm.controls['name']
+  }
 
   get email(){
     return this.regisForm.controls['email']
@@ -20,5 +26,9 @@ export class RegisterComponent {
 
   get password(){
     return this.regisForm.controls['password']
+  }
+
+  get repPassword(){
+    return this.regisForm.controls['repPassword']
   }
 }
