@@ -9,7 +9,7 @@ Herramientas usadas:
 ## Datos de autor
 - Autor: **Alan de Jesus Avalos Negrete**
 - Materia: **Aplicaciones Web para I4.0**
-- Unidad: **Unidad II Frameworks para Web empresarial 10 Febrero**
+- Unidad: **Unidad II Frameworks para Web empresarial**
 - Grupo: **GDS0551**
 
 ## Instalación
