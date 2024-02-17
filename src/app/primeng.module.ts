@@ -7,6 +7,7 @@ import { CalendarModule } from 'primeng/calendar';
 import { CardModule } from 'primeng/card';
 import { InputTextModule } from 'primeng/inputtext';
 import { PasswordModule } from 'primeng/password';
+import { ToastModule } from 'primeng/toast';
 
 //Arreglo para los componentes de Prime
 const modPrimeNg: any = [
@@ -14,7 +15,8 @@ const modPrimeNg: any = [
   CalendarModule, 
   CardModule, 
   InputTextModule, 
-  PasswordModule
+  PasswordModule,
+  ToastModule
 ]
 
 @NgModule({
